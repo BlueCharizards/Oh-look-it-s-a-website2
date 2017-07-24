@@ -1,7 +1,8 @@
 #cringe{
-  font-size: 10px;
+  font-size: 15px;
   font-family: Calibri;
   color: #FFFFFF;
+  text-align: center;
 }
 #header{
   height: 200px;
@@ -10,7 +11,54 @@
 }
 #puns{
   color: #FFFFFF;
+  font-family: Trebuchet MS;
+  text-align: center;
+  margin-top: -50px;
+  font-size: 25px;
 }
 #title{
   color: #FFFFFF;
+  font-family: Trebuchet MS;
+  font-size: 75px;
+  text-align: center;
+}
+.pages{
+  height: 75px;
+  width: 460px;
+  background-color: #C7AEE5;
+  display: inline-block;
+  align-content:center;
+  border: 3px solid #DAE5E8;
+  text-align: center;
+  font-size: 40px;
+  font-family: Calibri;
+  color: #363170;
+}
+body{
+  background-color: #1B2642;
+}
+#welcome{
+  width: 1500px;
+  height: 300px;
+  margin-left: 50px;
+  margin-right: 250px;
+  margin-top: 25px;
+  background-color: #84C8E8;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 30px;
+  font-family: Helvetica;
+  color: #381435;
+  border: 4px solid #DAE5E8;
+}
+#about{
+  width: 255px;
+  height: 270px;
+  background-color: #EF6BB4;
+  border: 3px solid #DAE5E8;
+  font-family: courier;
+  float: right;
+  border-radius: 25px;
+  margin-top: 25px;
+  padding: 10px;
 }

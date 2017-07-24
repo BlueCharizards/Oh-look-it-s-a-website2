@@ -1,0 +1,27 @@
+Head:
+A dark blue div that spans the width of the screen with the title and assorted subtitles with some stars and that picture I found but squished
+I'll download the fonts on my laptop and then put them in over the weekend
+Underneath the header are divs for each main page which light up when you roll over them with the mouse.
+Pages:
+  Home:
+    There's a header and a paragraph talking about the cafe and how it was created by two astronauts who got stranded on the moon and were bored. It also talks about how the entire building is made of
+    moon rocks and also how the food is teleported from earth with technology created by the one person who actually lives on the moon and is the only physical visitor to the cafe. This is in a div,
+    there's also a composite picture of various dishes sold at the cafe. On side is the phone number (000-000-0000) and e-mail (spacepunsaredumb@gmail.com)
+    THE HOME PAGE IS COMPLETED!!!
+  Menu:
+    Food:
+      Raspberry Pi (1 pc) Price: 3.14159265359
+      Black Velvet Nebula Cake (1 pc) Price: $14
+      Planetary Ring Doughnut (1pc) Price: 1: $2.50 6: $12 12: $24
+      Deep Freeze Sundae (3 scoops) Price: $10
+
+    Drinks:
+      Milky-way-shake $4
+
+  Order Online:
+    So for this one you have a list of menu items which you click to add to your order. there's a list of items you've ordered underneath the menu. Once you've listed everything you want, you pick your
+    payment method and click the ORDER button. You are then taken to a hidden page which tells you that your meal has been ordered and that it is being delivered as fast as possible.
+  Customer Reviews:
+    This is a page that shows the reviews The Milky Way Cafe has recieved on Google Maps. There are three. One, geotagged from the moon, says the cafe has a nice amosphere, one is complaining
+    that their food took three days to arrive, and one is a Youtube plug.
+    you cannot actually type a review on this page.
