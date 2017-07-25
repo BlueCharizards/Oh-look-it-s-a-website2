@@ -18,7 +18,7 @@
 }
 #title{
   color: #FFFFFF;
-  font-family: Trebuchet MS;
+  font-family: Courier new;
   font-size: 75px;
   text-align: center;
 }
@@ -33,13 +33,14 @@
   font-size: 40px;
   font-family: Calibri;
   color: #363170;
+  text-decoration: none;
 }
 body{
   background-color: #1B2642;
 }
 #welcome{
   width: 1500px;
-  height: 300px;
+  height: 350px;
   margin-left: 50px;
   margin-right: 250px;
   margin-top: 25px;
@@ -50,6 +51,7 @@ body{
   font-family: Helvetica;
   color: #381435;
   border: 4px solid #DAE5E8;
+  text-align: center;
 }
 #about{
   width: 255px;
@@ -61,4 +63,62 @@ body{
   border-radius: 25px;
   margin-top: 25px;
   padding: 10px;
+}
+#tile{
+  font-family: courier;
+  color: #81DBC0;
+  font-size: 90px;
+}
+#food{
+  background-color: #B6EFF9;
+  border-radius: 100px;
+  width: 700px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+}
+#thing{
+  border-radius: 25px;
+  background-color: #6DB5ED;
+  width: 1300px;
+  margin: auto;
+}
+#otherthing{
+  border-radius: 75px;
+  background-color: #7DDEF2;
+  width: 1100px;
+  margin: auto;
+}
+#fod{
+  float: left;
+  color: #001F91;
+  font-family: Courier;
+  font-size: 40px;
+  padding-left: 30px;
+}
+#manu{
+  background-image: url("http://www.bloggang.com/data/a/amement/picture/profile.png");
+  background-size: cover;
+  background-color: #AEC7F9;
+  height: 900px;
+  width: 1700px;
+  margin: auto;
+  border: 4px solid #DAE5E8;
+  margin-top: 50px;
+}
+#drinks{
+  background-image: url("https://ak6.picdn.net/shutterstock/videos/9933512/thumb/1.jpg");
+  background-size: cover;
+  height: 400px;
+  width: 1700px;
+  margin: auto;
+  margin-top: 10px;
+  border: 4px solid #E0D296;
+}
+#lime{
+  font-family: Courier;
+  padding: 30px;
+  font-size: 40px;
+  color: #42012C;
 }
