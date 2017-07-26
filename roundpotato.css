@@ -18,7 +18,7 @@
 }
 #title{
   color: #FFFFFF;
-  font-family: Courier new;
+  font-family: courier;
   font-size: 75px;
   text-align: center;
 }
@@ -37,10 +37,11 @@
 }
 body{
   background-color: #1B2642;
+  background-image: linear-gradient(#330E60, #0D7DBA);
 }
 #welcome{
   width: 1500px;
-  height: 350px;
+  height: 300px;
   margin-left: 50px;
   margin-right: 250px;
   margin-top: 25px;
@@ -51,12 +52,11 @@ body{
   font-family: Helvetica;
   color: #381435;
   border: 4px solid #DAE5E8;
-  text-align: center;
 }
 #about{
   width: 255px;
   height: 270px;
-  background-color: #EF6BB4;
+  background-color: #FFC9FE;
   border: 3px solid #DAE5E8;
   font-family: courier;
   float: right;
@@ -64,61 +64,91 @@ body{
   margin-top: 25px;
   padding: 10px;
 }
-#tile{
-  font-family: courier;
-  color: #81DBC0;
-  font-size: 90px;
-}
-#food{
-  background-color: #B6EFF9;
-  border-radius: 100px;
-  width: 700px;
+#manu{
+  background-image: url(http://www.bloggang.com/data/a/amement/picture/profile.png);
+  background-size: cover;
+  border: 7px double #DAE5E8;
+  padding: 40px;
+  height: 1000px;
+  width: 1600px;
   margin: auto;
   margin-top: 10px;
-  padding: 5px;
+}
+#food{
+  background-color: #C6F3FF;
+  border-radius: 100px;
+  height: 200px;
+  width: 500px;
+  margin: auto;
   text-align: center;
 }
-#thing{
-  border-radius: 25px;
-  background-color: #6DB5ED;
-  width: 1300px;
-  margin: auto;
-}
 #otherthing{
-  border-radius: 75px;
-  background-color: #7DDEF2;
+  background-color: #B7DEFF;
+  border-radius: 50px;
   width: 1100px;
   margin: auto;
 }
-#fod{
-  float: left;
-  color: #001F91;
-  font-family: Courier;
-  font-size: 40px;
-  padding-left: 30px;
-}
-#manu{
-  background-image: url("http://www.bloggang.com/data/a/amement/picture/profile.png");
-  background-size: cover;
-  background-color: #AEC7F9;
-  height: 900px;
-  width: 1700px;
+#thing{
+  background-color: #A5CAFF;
+  border-radius: 25px;
+  width: 1300px;
   margin: auto;
-  border: 4px solid #DAE5E8;
-  margin-top: 50px;
+}
+#tile{
+  padding: 40px;
+  font-size: 65px;
+  font-family: courier;
 }
 #drinks{
-  background-image: url("https://ak6.picdn.net/shutterstock/videos/9933512/thumb/1.jpg");
+  background-image: url(https://ak6.picdn.net/shutterstock/videos/9933512/thumb/1.jpg);
   background-size: cover;
-  height: 400px;
-  width: 1700px;
-  margin: auto;
-  margin-top: 10px;
-  border: 4px solid #E0D296;
+  padding: 40px;
+  border: 7px double #DAE5E8;
+  margin-top: 0.8px;
 }
 #lime{
-  font-family: Courier;
-  padding: 30px;
+  font-family: verdana;
   font-size: 40px;
-  color: #42012C;
+  color: #44173C;
+}
+#fod{
+  font-family: verdana;
+  font-size: 40px;
+  color: #2F1D54;
+}
+#hfueo{
+  background-color: #F6EFFF;
+  width: 1500px;
+  margin: auto;
+  padding: 40px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-top: 20px;
+  border-left-style: ridge;
+  border-left-color: #D83674;
+  border-left-width: 20px;
+}
+#non{
+  font-family: verdana;
+  font-size: 30px;
+}
+#oui{
+  font-family: verdana;
+  font-size: 25px;
+  float: right;
+  margin-top: -550px;
+  margin-right: 40px;
+}
+#order{
+  border-radius: 30px;
+  padding: 30px;
+  background-color: #BEE3F7;
+  width: 800px;
+  margin: auto;
+  margin-top: 20px;
+  border-top: 10px ridge #275DB5;
+  border-left: 10px ridge #275DB5;
+}
+.stuff{
+  display: none;
 }
