@@ -35,9 +35,13 @@
   color: #363170;
   text-decoration: none;
 }
+.pageText{
+  text-decoration: none;
+}
 body{
   background-color: #1B2642;
   background-image: linear-gradient(#330E60, #0D7DBA);
+  background-size: cover;
 }
 #welcome{
   width: 1500px;
@@ -104,7 +108,9 @@ body{
   background-size: cover;
   padding: 40px;
   border: 7px double #DAE5E8;
+  margin: auto;
   margin-top: 0.8px;
+  width: 1600px;
 }
 #lime{
   font-family: verdana;
@@ -151,4 +157,62 @@ body{
 }
 .stuff{
   display: none;
+}
+#button{
+  width: 400px;
+  margin: auto;
+}
+#buttonText{
+  font-family: courier;
+  font-size: 50px;
+  text-decoration: none;
+}
+#explain{
+  font-family: verdana;
+  font-size: 15px;
+  text-align: center;
+}
+#processed{
+  font-size: 75px;
+  font-family: courier;
+  color: #311066;
+  margin-top: 30px;
+  margin-left: 500px;
+}
+#dont{
+  margin-left: 500px;
+  font-family: verdana;
+  font-size: 25px;
+  color: #090C47;
+}
+#turtle{
+  background-color: #EEDFFF;
+  height: 250px;
+  width: 800px;
+  margin: auto;
+  padding: 30px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top: 15px ridge #87FEC8;
+  margin-top: 30px;
+}
+#reviewss{
+  text-align: center;
+  font-size: 50px;
+  font-family: helvetica;
+}
+#liar{
+  text-align: center;
+  font-family: helvetica;
+  font-size: 20px;
+}
+.nostars{
+  font-family: helvetica;
+  background-color: white;
+  padding: 25px;
+  border-bottom-radius: 15px;
+  border-top: 10px solid red;
+  width: 1300px;
+  margin: auto;
+  margin-top: 10px;
 }
